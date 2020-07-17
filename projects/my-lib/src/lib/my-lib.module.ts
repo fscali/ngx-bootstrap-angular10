@@ -6,7 +6,7 @@ import { ModalModule } from 'ngx-bootstrap/modal';
 @NgModule({
   declarations: [MyLibComponent],
   imports: [
-    ModalModule.forChild()
+    ModalModule.forRoot()
   ],
   exports: [MyLibComponent]
 })
