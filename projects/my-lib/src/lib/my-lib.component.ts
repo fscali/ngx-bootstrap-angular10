@@ -17,6 +17,21 @@ import { BsModalRef, BsModalService } from 'ngx-bootstrap/modal';
       This is a modal.
     </div>
   </ng-template>
+
+
+  <ng-container>
+    <a
+      href="javascript:;"
+      class="btn btn-default btn-secondary"
+      [popover]="test"
+      popoverTitle="Popover on top"
+      placement="top"
+      #pop3="bs-popover"
+    >
+      Popover on top
+    </a>
+  </ng-container>
+  <ng-template #test> </ng-template>
   `,
   styles: [
   ]
